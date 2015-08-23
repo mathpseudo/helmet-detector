@@ -33,7 +33,7 @@ def count_transitions(image,min_x,min_y,max_x,max_y):
 	return count
 
 def pattern_detection(user):
-	cap = cv2.VideoCapture(os.path.dirname(os.path.realpath(__file__))+'\samples\\test_video1.mp4')
+	cap = cv2.VideoCapture(0)#os.path.dirname(os.path.realpath(__file__))+'\samples\\test_video1.mp4')
 	entered=0
 	t1=time.time()
 	while(cap.isOpened()):
@@ -79,4 +79,3 @@ def pattern_detection(user):
 pattern_detection(1)
 def Helmet_Rider():
 	pattern_detector(1)
-	
