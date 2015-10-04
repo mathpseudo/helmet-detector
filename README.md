@@ -1,8 +1,5 @@
 # helmet-detector
-An application that detects helmets by checking the tags in them.
+            One of the major causes of serious injuries or death in accidents involving two-wheelers is that the rider was not wearing a helmet. Policemen manually checking whether the riders are using helmets is the only available method employed presently.So there is a need for systems that can be automatically detect whether a rider is wearing helmet or not. This system can also be used to prevent the rider from starting the bike if he is not wearing a helmet
+             The major problem here is detecting the helmet using a camera, object detection is an AI hard problem and can give rise to several false positives and false negatives. So, instead, we can use pattern based tamper proof hologram stickers for the helmet using unique patterns. So that this pattern can be detected which can confirm the presence of the helmet.
+              This is also a low cost method as tamper proof hologram stickers are very cheap. The only drawback is the requirement for some legislation to implement the same. Please note that the lack of an intuitive UI is due to the idea of implementing it in a two-wheeler, where the user has nothing to do(idea is Machine to Machine Interaction). It also has some hardware requirements including the setup of a camera, which can also be used for other purposes such as detecting accidents.
 
-Almost one in every four traffic violations is caused due to people not wearing helmets.So we need systems that detects helmets efficiently.But none of the available systems tackle this problem efficiently as object recognition is an AI Complete problem.
-
-As a new idea, we can think of pattern tagged helmets that help in their identification by searching for a pattern,which is relatively easier. The available application is part of a demo and detects the presence of the pattern in a video stream.
-
-The project was developed in Kerala Road Safety Hackathon sponsored by The World Bank, Kerala Road Safety Authority, Department of IT, International Financial Corporation with Industry partner GTECH and powered by angelhack.
